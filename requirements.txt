@@ -1,0 +1,16 @@
+# Requirements pour le GameFAQs Scraper CLI
+# Installation: pip install -r requirements.txt
+
+# Core dependencies pour le scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+html2text>=2020.1.16
+
+# Optional: Pour des fonctionnalités avancées
+lxml>=4.9.0  # Parser HTML plus rapide (optionnel mais recommandé)
+
+# Pour le développement et debugging (optionnel)
+# ipython>=8.12.0
+# pytest>=7.3.0
+
+# Note: Python 3.8+ requis
